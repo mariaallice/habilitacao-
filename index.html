@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Mobile App Interface</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            height: 80vh; /* Ocupa 20% da altura da tela */
+            margin: 0; /* Remove margens padrão */
+        }
+        .swiper-container {
+            width: 100%;
+        }
+        .swiper-slide img {
+            width: 100%;
+            height: auto;
+        }
+        .swiper-pagination {
+            position: relative;
+            bottom: 0;
+            margin-top: 5px;
+        }
+        .swiper-pagination-bullet {
+            background-color: gray;
+            opacity: 1;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: white;
+        }
+    </style>
+</head>
+<body class=" flex flex-col">
+    <div id="home" class="bg-white w-full h-full rounded-lg shadow-lg overflow-hidden flex flex-col">
+        <div class="bg-blue-900 p-6 flex items-center justify-between relative">
+            <i class="fas fa-bars text-white text-2xl"></i>
+            <div class="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <div class="relative">
+                    <div class="w-24 h-24 bg-blue-800 rounded-full flex items-center justify-center text-white text-4xl font-bold border-4 border-white">A</div>
+                    <div class="absolute bottom-0 right-0 w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+            </div>
+            <i class="fas fa-envelope text-white text-2xl"></i>
+        </div>
+        <div class="p-6 text-center mt-12 flex-grow">
+            <h1 class="text-2xl font-bold text-blue-900">Olá Allan,</h1>
+            <p class="text-gray-600 mb-6">O que gostaria de fazer hoje?</p>
+            <div class="grid grid-cols-2 gap-6">
+                <div class="flex flex-col items-center">
+                    <a href="#" onclick="showHabilitacao()" class="flex flex-col items-center">
+                        <img alt="Icon of an ID card" class="w-20 h-20 mb-2" height="100" src="https://storage.googleapis.com/a1aa/image/bTXzLgnsxd19y-6z4UIT8KjHXEG5kiLISpNS2-J3DWc.jpg" width="100"/>
+                        <p class="text-blue-900 font-bold">Habilitação</p>
+                    </a>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img alt="Icon of a car" class="w-20 h-20 mb-2" height="100" src="https://storage.googleapis.com/a1aa/image/1Q6DL-zPiVpVpNlsbWSQXkkuWMJcwh2SKEhxAE5hhm0.jpg" width="100"/>
+                    <p class="text-blue-900 font-bold">Veículos</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img alt="Icon of a document with a dollar sign" class="w-20 h-20 mb-2" height="100" src="https://storage.googleapis.com/a1aa/image/kNrzXHRlVNlqXv1G66N0UoXV_UbdPJlcaPngLqkw8WI.jpg" width="100"/>
+                    <p class="text-blue-900 font-bold">Infrações</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img alt="Icon of a traffic light" class="w-20 h-20 mb-2" height="100" src="https://storage.googleapis.com/a1aa/image/qJTShS7orpnpz8pDfWxcjGDPFAxGN-Qy5u9ddBvxgKs.jpg" width="100"/>
+                    <p class="text-blue-900 font-bold">Educação</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Habilitação -->
+    <div id="habilitacao" class="">
+        <div class="bg-blue-900 text-white text-center py-2 rounded-t-lg">
+            <div class="flex justify-between items-center px-4">
+                <span class="text-lg" onclick="showHome()" style="cursor: pointer;">&lt;</span>
+                <span class="text-sm">CNH Digital</span>
+                <span class="text-sm">Opções</span>
+            </div>
+            <div class="text-xs mt-1">ATENÇÃO! VERIFIQUE O QR CODE COM O APP VIO</div>
+        </div>
+
+        <!-- Área da imagem e indicadores -->
+        <div class="bg-gray pb-3 flex-grow">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img <a <a href="https://postimg.cc/QBq24CGP" target="_blank"><img src="https://i.postimg.cc/XJMnvB2V/F508-C9-A6-AFC7-4-B92-B1-E0-569330-EC0636.jpg" alt="F508-C9-A6-AFC7-4-B92-B1-E0-569330-EC0636"/></a> <img </a> 
+                    </div>
+                    <div class="swiper-slide">
+                        <img <a href='https://postimg.cc/9RFvv2cf' target='_blank'><img src='https://i.postimg.cc/RFc4JC8w/30653ac6-a19d-480d-8e0d-3833fa89269c.jpg' border='0' alt='30653ac6-a19d-480d-8e0d-3833fa89269c'/></a> 
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/qqwrQbpR/993837f4-efaa-474c-a6c7-1d43f4c47b53.jpg" alt="993837f4-efaa-474c-a6c7-1d43f4c47b53"/></a> 
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicadores abaixo da imagem e acima do menu -->
+            <div class="swiper-pagination flex justify-center mt-2"></div>
+        </div>
+
+        <!-- Menu inferior -->
+        <div class="bg-white text-gray-500 text-center py-2 rounded-b-lg flex justify-around">
+            <div class="flex flex-col items-center">
+                <i class="fas fa-home"></i>
+                <span class="text-xs">Início</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <i class="fas fa-user"></i>
+                <span class="text-xs">Perfil</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <i class="fas fa-cog"></i>
+                <span class="text-xs">Configurações</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+        function showHabilitacao() {
+            document.getElementById('home').classList.add('hidden');
+            document.getElementById('habilitacao').classList.remove('hidden');
+        }
+
+        function showHome() {
+            document.getElementById('habilitacao').classList.add('hidden');
+            document.getElementById('home').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
